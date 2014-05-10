@@ -57,9 +57,12 @@ ul {
 }
 
 #name {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 400;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+	/*font-family: "Montserrat", sans-serif;*/
+	font: "Helvetica Neue", sans-serif;
+    font-weight: 300;
 	font-size: 20px;
+	letter-spacing: 1px;
 	position: absolute;
 	top: 40%;
 	left: 40%;
@@ -68,7 +71,8 @@ ul {
 	position: absolute;
 	font-family: 'News Cycle', sans-serif;
 	top: 43%;
-	left: 49%;
+	left: 50.5%;
+	color: #fffaec;
 }
 
 

@@ -1,0 +1,315 @@
+/*
+Plugin: jQuery Parallax
+Version 1.1
+Author: Ian Lunn
+Author URL: http://www.ianlunn.co.uk/
+Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: NeoSansIntel;
+  src: url('NeoSansIntel.ttf');
+}
+
+body{
+  margin: 0;
+  min-width: 680px;
+  padding: 0;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+p{
+  margin: 0 0 20px 0;  
+}
+
+p, ul{
+  font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size-adjust:0.488;
+  font-weight:200;
+  font-style:normal;
+}
+
+img{
+  border: 0;
+}
+
+h1, #pixels{
+/*  font-family:"Museo 900", Verdana, serif;*/
+  font-family:NeoSansIntel;
+  font-size-adjust:0.40;
+  font-weight:700;
+  font-style:normal;
+  color: #1818e3;
+}
+
+h2 {
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0;
+  color: #FFB000;
+  padding: 60px;
+  text-shadow: 0 2px 1px #000;
+  font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+  text-transform: uppercase;
+}
+
+#header h1, #pixels{
+  color: #48941A;
+}
+
+.float-left{
+  float: left;  
+  margin: 0 0 0 20px;
+}
+
+.float-right{
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.center{
+  font-size: 2.5em;
+  background:none;
+  padding: 80px 0 0 200px;
+  text-align: center;
+}
+
+#nav{
+  list-style: none;
+  position: fixed;
+  right: 20px;
+  z-index: 999;
+}
+
+#nav li{
+  margin: 0 0 15px 0;  
+}
+
+#header, #intro, #second{
+  width: 100%;
+}
+
+#intro{
+  background:url(images/lifetitle.png) 50% -75px no-repeat fixed;
+  color: white;
+  height: 900px;
+  margin: 0 auto;
+  padding: 160px 0 0 0;
+}
+
+#second{
+  background: url(images/oregon.png) 50% 0 no-repeat fixed;
+  color: #dddcdd;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+#second .bg{
+  background: url(images/plane.png) 50% 0 no-repeat fixed;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 900px;
+  z-index: 200;
+}
+
+#third{
+  background: url(images/sf.png) 50% 0 no-repeat fixed;
+  color: #f99194;
+  height: 800px;
+  padding: 10px 0 0 0;
+}
+
+#third .bg{
+  background: url(images/gg.png) 10% 0 no-repeat fixed;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+  position: absolute;
+  width: 1200px;
+  z-index: 200;
+}
+
+#fourth{
+  background: url(images/chinatown.png) 50% 0 no-repeat fixed;
+  color: white;
+  height: 800px;
+  padding: 100px 0 0 0;
+}
+
+#fourth .bg{
+  background: url(images/apple.png) 10% 0 no-repeat fixed;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 0px 0 0;
+  position: absolute;
+  width: 1200px;
+  z-index: 200;
+}
+
+#fifth{
+  background: url(images/familyblur.png) 50% 0 no-repeat fixed;
+  color: white;
+  height: 800px;
+  padding: 10px 0 0 0;
+  z-index: 250;
+}
+
+#fifth .bg{
+  background: url(images/family.png) 40% 0 no-repeat fixed;
+  height: 900px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 1200px;
+  z-index: 200;
+}
+
+#spinner{
+  background: url(images/spinnerbg.png) 50% 0 no-repeat fixed;
+  background-color: #80d33d;
+  height: 800px;
+  padding: 0px 0 0 0;
+  z-index: 275;
+}
+
+#sixth{
+  background: url(images/robotics.png) 50% 0 no-repeat fixed;
+  color: white;
+  height: 800px;
+  padding: 100px 0 0 0;
+}
+
+#seventh{
+  background-color: #ff0000;
+  height: 800px;
+  padding: 0px 0 0 0;
+}
+
+#seventh .bg{
+  background: url(images/roadblock.png) 40% 0 no-repeat fixed;
+  height: 655px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  position: absolute;
+  width: 1000px;
+  z-index: 200;
+}
+
+#eighth{
+  background: url(images/closeminded.png) 40% 0 no-repeat fixed;
+  background-color: #f6f808;
+  height: 800px;
+  padding: 10px 0 0 0;
+}
+  
+#eighth .bg{
+  background: url(images/no.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  width: 1000px;
+  z-index: 200;
+}
+
+#ninth{
+  background: url(images/ucsd.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  padding: 0px 0 0 0;
+}
+
+#ninth .bg{
+  background: url(images/startcollege.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0px 0 0 0;
+  position: absolute;
+  width: 1500px;
+  z-index: 300;
+}
+
+#ninth .mid{
+  background: url(images/ucsdlogo.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0px 0 0 0;
+  position: absolute;
+  width: 1500px;
+  z-index: 200;
+}
+
+#tenth{
+  background: url(images/intel.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  padding: 0px 0 0 0;
+}
+
+/*#ninth .bg{
+  background: url(images/startce.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0px 0 0 0;
+  position: absolute;
+  width: 1500px;
+  z-index: 300;
+}*/
+
+#eleventh{
+  background: url(images/inspire.png) 40% 0 no-repeat fixed;
+  height: 800px;
+  padding: 0px 0 0 0;
+}
+
+#ninth .story{
+  margin: 0 auto auto 0;
+  min-width: 980px;
+  overflow: auto;
+  width: 1500px;
+}
+
+.story{
+  margin: 0 auto;
+  min-width: 980px;
+  overflow: auto;
+  width: 1000px;
+}
+
+.story .float-left, .story .float-right{
+  padding: 100px 0 0 0;
+  position: relative;
+  width: 350px;  
+}
+
+.slide {
+  width: 100%;
+}
+
+#nav li a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: solid 2px white;
+}
+
+#nav li a.current {
+  background-color: orange;
+}
+
+#examples-1 { overflow: hidden; }
+#fly-it { position: relative; }
+#fly-it2 { position: relative; }
+#scale-it { width: 500%; margin: 0px -200%; padding: 0; }
