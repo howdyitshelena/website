@@ -1,0 +1,35 @@
+body {
+	height: 100%;
+}
+
+#container,
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; 
+  /*background-color: #ECDADA;*/
+  background-color: #FEE3E5;
+}
+
+#container {
+	margin-top: -25px;
+}
+
+.container {
+	padding: 15px 20px;
+}
+
+#maindiv {
+	margin-top: 20px;
+}
+
+nav, #container,
+.inline {
+	display: inline;
+}
+
+section{
+	padding-top: 50px;
+}
+

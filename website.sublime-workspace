@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"c",
+				"condition"
+			],
+			[
+				"replace",
+				"replaceSpaces"
+			],
+			[
+				"high",
+				"highlightTip"
+			],
+			[
+				"highlig",
+				"highlightPop"
+			],
+			[
+				"colors",
+				"colorsButton"
+			],
+			[
+				"divi",
+				"divider"
+			],
+			[
+				"sub",
+				"submitForm"
+			],
+			[
+				"passwor",
+				"password2"
+			],
+			[
+				"passwo",
+				"password2"
+			],
+			[
+				"set",
+				"setCustomValidity"
+			],
+			[
+				"pwd",
+				"pwdField_2"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pwdFi",
+				"pwdField_1"
+			],
+			[
+				"pro",
+				"project_info"
+			],
+			[
+				"sty",
+				"stylizeHighlightedString"
+			],
+			[
+				"projec",
+				"projectInfo"
+			],
+			[
+				"coo",
+				"colors"
+			],
+			[
+				"random",
+				"randomPalette"
+			],
+			[
+				"ana",
+				"anagrammedName"
+			],
+			[
+				"backgrou",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Customize/dist/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3735,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slide-in-panel/css/style.css",
+			"settings":
+			{
+				"buffer_size": 11271,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/static-libraries/js/jquery.ui.autocomplete.html.js",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/static-libraries/js/jquery-ui/jquery-ui.min.js",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/hbtemplates/content/content-wrapper.handlebars",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/static/js/distributed/search_autocomplete.js",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/static-libraries/css/jquery-ui/jquery-ui.min.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/static/js/distributed/exercises/perseus-helpers.js",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/hbtemplates/video/video-player.handlebars",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/templates/distributed/topic.html",
+		"/Users/helenaqin/Documents/kalite.sublime-project",
+		"/Users/helenaqin/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/static/css/distributed/bootstrap-overrides.css",
+		"/Users/helenaqin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/helenaqin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/static/css/distributed/search_autocomplete.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/python-packages/django_extensions/static/django_extensions/css/jquery.autocomplete.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/hbtemplates/content/content-points.handlebars",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/dynamic_assets/templates/dynamic_assets/dynamic.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/templates/distributed/partials/_footer.html",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/hbtemplates/video/video-wrapper.handlebars",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/static/video-js/video-js.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/local_settings.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/distributed/static/js/distributed/videoplayer.js",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/static/video-js-4/video-js.mod.css",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/i18n/templatetags/i18n_filters.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/i18n/templatetags/__init__.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/contentload/api_views.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/main/api_urls.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/main/api_resources.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/student_testing/api_views.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/student_testing/models.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/updates/templates/updates/update_videos.html",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/updates/api_urls.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/updates/api_views.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/manage.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/updates/views.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/static/data/khan/exercises.json",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/store/api_urls.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/store/api_resources.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/store/models.py",
+		"/Users/helenaqin/Documents/ka-lite/ka-lite/kalite/updates/static/js/updates/update_videos.js",
+		"/Users/helenaqin/Dropbox/UCSD/4th/Fall/COGS 187A/companalysis/css/stylesheet.css",
+		"/Users/helenaqin/Dropbox/UCSD/4th/Fall/COGS 187A/Competitive_Analysis.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/Customize/js/script.js",
+		"/Users/helenaqin/Dropbox/helenaq.in/tech.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/other.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/contact.html",
+		"/Users/helenaqin/Dropbox/old website/about.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/blog.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/projects.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/Customize/dist/css/projects_style.css",
+		"/Users/helenaqin/Desktop/holygrail.css",
+		"/Users/helenaqin/Desktop/holygrail.html",
+		"/Users/helenaqin/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/helenaqin/Dropbox/helenaq.in/Customize/dist/css/bootstrap.min.css",
+		"/Users/helenaqin/Dropbox/helenaq.in/Customize/dist/css/bootstrap.css",
+		"/Users/helenaqin/Dropbox/helenaq.in/old/index.html",
+		"/Users/helenaqin/Dropbox/UCSD/Junior/Spring/CSE 141L/lab2/definitions.v",
+		"/Users/helenaqin/Dropbox/UCSD/Junior/Spring/CSE 130/Lecture07.ml",
+		"/Users/helenaqin/Desktop/Test.java",
+		"/Users/helenaqin/Dropbox/UCSD/Junior/Spring/CSE 130/Lecture05",
+		"/Users/helenaqin/Desktop/ReverseList.java",
+		"/Users/helenaqin/Dropbox/UCSD/Junior/Internship/Book Solutions/Chapter 1/Question1_1/Question.java",
+		"/Users/helenaqin/Dropbox/helenaq.in/old/inspirations.html",
+		"/Users/helenaqin/Dropbox/helenaq.in/old/blog.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/users.json",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/index.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/js/notepull.js",
+		"/Users/helenaqin/Documents/introHCI/NotePull/views/home.handlebars",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/help.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/views/homeTour.handlebars",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/home.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/home_tour.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/js/note.js",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/landing_tour.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/js/main.js",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/css/main.css",
+		"/Users/helenaqin/Documents/introHCI/NotePull/views/folder.handlebars",
+		"/Users/helenaqin/Documents/introHCI/NotePull/routes/index.js",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/signup.html",
+		"/Users/helenaqin/Documents/introHCI/NotePull/routes/filter.js",
+		"/Users/helenaqin/Documents/introHCI/NotePull/public/landing.html",
+		"/Users/helenaqin/Documents/introHCI/lab8/views/index.handlebars",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/help.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/settings.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/index.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/home.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull1.0/public/settings.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/js/main.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120.0/public/js/note.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120.0/public/help.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/js/mosaic.1.0.1.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull2.0/public/js/note.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120/notepull1.0/public/help.html",
+		"/Users/helenaqin/Documents/introHCI/lab8/projects.json",
+		"/Users/helenaqin/Documents/introHCI/lab8/public/js/introHCI.js",
+		"/Users/helenaqin/Documents/introHCI/lab8/app.js",
+		"/Users/helenaqin/Documents/introHCI/lab8/views/project.handlebars",
+		"/Users/helenaqin/Documents/introHCI/lab8/routes/index.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120/public/signup.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/public/settings.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/public/help.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/public/js/note.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120/public/css/note.css",
+		"/Users/helenaqin/Documents/COGS120/public/js/main.js",
+		"/Users/helenaqin/Documents/COGS120/public/js/mosaic.1.0.1.js",
+		"/Users/helenaqin/Documents/COGS120/public/settings.html",
+		"/Users/helenaqin/Documents/COGS120/public/help.html",
+		"/Users/helenaqin/Documents/COGS120/folders.json",
+		"/Users/helenaqin/Documents/COGS120/routes/index.js",
+		"/Users/helenaqin/Documents/COGS120/public/tags.html",
+		"/Users/helenaqin/Documents/COGS120/public/css/note.css",
+		"/Users/helenaqin/Documents/COGS120/public/js/note.js",
+		"/Users/helenaqin/Documents/COGS120/public/new.html",
+		"/Users/helenaqin/Documents/COGS120/public/index.html",
+		"/Users/helenaqin/Desktop/MacAssKill.docx",
+		"/Users/helenaqin/Desktop/east village asian diner.rtf",
+		"/Users/helenaqin/Documents/introHCI/lab7/models.js",
+		"/Users/helenaqin/Documents/introHCI/lab7/projects.json",
+		"/Users/helenaqin/Documents/introHCI/lab7/routes/project.js",
+		"/Users/helenaqin/Documents/introHCI/lab7/public/js/introHCI.js",
+		"/Users/helenaqin/Desktop/blah.html",
+		"/Users/helenaqin/Documents/introHCI/lab6/routes/index.js",
+		"/Users/helenaqin/Documents/introHCI/lab5/routes/add.js",
+		"/Users/helenaqin/Documents/introHCI/lab5/app.js",
+		"/Users/helenaqin/Documents/introHCI/lab6/public/js/introHCI.js",
+		"/Users/helenaqin/Documents/introHCI/lab6/public/js/bootstrap.js",
+		"/Users/helenaqin/Documents/introHCI/COGS120/new.html",
+		"/Users/helenaqin/Documents/introHCI/COGS120/js/note.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"panel",
+			"icon",
+			"ui-state-focus",
+			"ui-state",
+			"ui-state-focus",
+			"ui-state-focus\nui-state-focus",
+			"MathJax",
+			"filter",
+			"filter\n\n\n\nfilter",
+			"auto",
+			"search-box",
+			"search",
+			"btn",
+			"span class=\"autocomplete",
+			"unavailable",
+			"query",
+			"ui-menu-item\" role=\"presentation\"",
+			"h3",
+			".panel-heading",
+			"panel-header",
+			"panel-footer",
+			"class=\"ui-menu-item\"",
+			"class=\"form-control ui-autocomplete-input\"",
+			"role=\"presentation\"",
+			"ui-autocomplete ui-front ui-menu",
+			"ui-id-2",
+			"points\n\n\npoints",
+			"motivational-feature",
+			"panel panel-default",
+			"border: 1px solid transparent",
+			"1px solid transparent",
+			"hover",
+			"dropdown",
+			".open",
+			"active",
+			"nav-tabs",
+			"content-player-container",
+			"div class=\"content-player-container\"",
+			"col-xs-12",
+			".motivational-feature",
+			".title-header",
+			".content-wrapper",
+			"content-wrapper",
+			"title-header",
+			"col-xs-12",
+			"video-player-container",
+			"height: 600;",
+			"Video",
+			"VideoWrapperView",
+			"video-wrapper",
+			"container",
+			"video-player-container",
+			"navbar kalite-navbar faded-green-bg",
+			"header",
+			"container\ncontainer",
+			"content-container\ncontainer",
+			"footer",
+			"footer {",
+			"video-player",
+			"#video-player",
+			"video-js\n\n\n\nvideo-js",
+			"video-js",
+			"content-area",
+			"video-player",
+			"video",
+			"faded-green-bg",
+			"div id=\"MathJax_Font_test\"",
+			"footer class=\"faded-green-bg\"",
+			"exercise",
+			"\"error\": \"The object \" has an empty attribute",
+			"\"error\": \"The object \"",
+			"\nhas an empty attribute 'x_pos'",
+			"console",
+			"debug.",
+			"annotate_topic_tree",
+			"get_annotated_topic_tree",
+			"Loading topic",
+			"$(",
+			">\n",
+			"%;\n",
+			"white",
+			"wrapper",
+			"body {\n	height: 1000px;\n}",
+			"30px",
+			"line",
+			"work",
+			"href",
+			"to",
+			"toa",
+			"toasci",
+			"hashmap",
+			"toggl",
+			"popover",
+			"colorsButton",
+			"submitFOrm",
+			"submitForm",
+			"popover",
+			".popover",
+			"popover",
+			"editNote",
+			"edit",
+			"background",
+			"length",
+			"roboto",
+			"folder",
+			"home",
+			"Add folder",
+			"add",
+			"delete",
+			"home",
+			"btn",
+			"btn-group",
+			"loginb",
+			"index",
+			"checklogin",
+			"index.view",
+			"users",
+			"users.json",
+			"users",
+			"users.json",
+			"addnote",
+			"submitnote",
+			"title",
+			"color",
+			"done",
+			"data",
+			"view",
+			".project-des"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Customize/dist/css/style.css",
+					"settings":
+					{
+						"buffer_size": 3735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3697,
+								3702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2227.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "slide-in-panel/css/style.css",
+					"settings":
+					{
+						"buffer_size": 11271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1521,
+								1521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 843.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.922839506173,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"search_autocompl",
+				"kalite/distributed/static/js/distributed/search_autocomplete.js"
+			],
+			[
+				"style.css",
+				"kalite/distributed/static/fonts/style.css"
+			],
+			[
+				"autocomplete",
+				"kalite/distributed/static/js/distributed/search_autocomplete.js"
+			],
+			[
+				"autocompl",
+				"python-packages/django_extensions/static/django_extensions/css/jquery.autocomplete.css"
+			],
+			[
+				"local",
+				"kalite/local_settings.py"
+			],
+			[
+				"auto",
+				"kalite/distributed/static/js/distributed/search_autocomplete.js"
+			],
+			[
+				"",
+				"/Users/helenaqin/Desktop/holygrail.css"
+			],
+			[
+				"pr",
+				"lab8/projects.json"
+			],
+			[
+				"project",
+				"lab8/projects.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true
+}
