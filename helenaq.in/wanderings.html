@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Helena Qin</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/wanderings-css.css">
+		<link rel="icon"
+			  type="image/png"
+			  href="favicon.png">
+	</head>
+
+	<body>
+		<a href="#" class="menu-button" id="menuButton">
+			<span class="burger-icon"></span>
+		</a>
+
+		<ul id="menu">
+			<a href="index.html"><li>Home</li></a>
+			<a href="about.html"><li>Definition</li></a>
+			<a href="wanderings.html"><li>Wanderings</li></a>
+			<a href="mood.html"><li>Mood</li></a>
+			<a href="connect.html"><li>Say Hello</li></a>
+		</ul>
+
+		<script>
+		var menuButton = document.getElementById('menuButton');
+		menuButton.addEventListener('click', function (e) {
+			menuButton.classList.toggle('is-active');
+			var menu = document.getElementById('menu');
+			menu.classList.toggle('is-active');
+			e.preventDefault();
+		});
+		</script>
+
+		<div id="center">
+			<h1>Wanderings</h1>
+			<h2 class="white-bg">Just a collection of notes while backpacking</h2>
+			<p class="white-bg"><i>warning: most traveling is done with food destinations in mind</i></p>
+			<ul id="places-list">
+				<a href="wanderings/osaka.html">
+					<div class="places-row">
+						<div class="left"><li>03. Osaka,</li></div>
+						<div class="right"><li>Japan</li></div>
+					</div>
+				</a>
+				<a href="wanderings/paris.html">
+					<div class="places-row">
+						<div class="left"><li>02. Paris,</li></div>
+						<div class="right"><li>France</li></div>
+					</div>
+				</a>
+				<a href="wanderings/copenhagen.html">
+					<div class="places-row">
+						<div class="left"><li>01. København,</li></div>
+						<div class="right"><li>Denmark</li></div>
+					</div>
+				</a>
+			</ul>
+		</div>
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	    <!-- Own script stuff -->
+	    <script src="js/script.js"></script>
+
+		<footer>
+			<p>&copy; helenaq.in 2017 | This website is powered by coffee and tea</p>
+		</footer>
+	</body>
+</html>

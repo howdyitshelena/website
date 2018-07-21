@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Helena Qin</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/mood-css.css">
+		<link rel="icon"
+			  type="image/png"
+			  href="favicon.png">
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			<a href="#" class="menu-button" id="menuButton">
+				<span class="burger-icon"></span>
+			</a>
+
+			<ul id="menu">
+				<a href="index.html"><li>Home</li></a>
+				<a href="about.html"><li>Definition</li></a>
+				<a href="wanderings.html"><li>Wanderings</li></a>
+				<a href="mood.html"><li>Mood</li></a>
+				<a href="connect.html"><li>Say Hello</li></a>
+			</ul>
+
+			<script>
+			var menuButton = document.getElementById('menuButton');
+			menuButton.addEventListener('click', function (e) {
+				menuButton.classList.toggle('is-active');
+				var menu = document.getElementById('menu');
+				menu.classList.toggle('is-active');
+				e.preventDefault();
+			});
+			</script>
+
+			<div id="center">
+				<div id="tumblr"></div>
+	        	<div id="soundcloud"></div>
+
+			</div>
+
+
+			<!-- jQuery -->
+
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+		    <!-- Own script stuff -->
+
+		    <script src="http://connect.soundcloud.com/sdk.js"></script>
+		    <script src="js/script.js"></script>
+		    <script src="js/tumblrAPI.js"></script>
+		    <script>
+		    $("#tumblr").embedTumblr("http://api.tumblr.com/v2/blog/itscoffeethyme.tumblr.com/posts?api_key=iiYAbndI225cPMo9Aih1eCFWCQ4y68voAom9Z8xqkvdtuM8SrF");
+		    </script>
+
+			<div id="footer">
+				<p>&copy; helenaq.in 2017 | This website is powered by coffee and tea</p>
+			</div><!-- #footer -->
+
+		</div><!-- #wrapper -->
+	</body>
+</html>
